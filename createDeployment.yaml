@@ -16,7 +16,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: mynode
-        image: gcr.io/sit-faisal-alam-dc41412/node-web-app:latest
-        ports:
-        - containerPort: 8080
+        - name: mynode
+          image: gcr.io/sit323-23t1-surpreet-s-86a6a22/node-web-app
+          ports:
+            - containerPort: 8080

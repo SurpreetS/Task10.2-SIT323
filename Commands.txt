@@ -26,10 +26,10 @@ gcloud components install gke-gcloud-auth-plugin
 cd <path-to-folder>
 
 #Build the Dockerfile
-docker build -t gcr.io/sit-faisal-alam-dc41412/node-web-app:latest .
+docker build -t gcr.io/sit323-23t1-surpreet-s-86a6a22/node-web-app:latest .
 
 #Push Docker Image to gcr
-docker push gcr.io/sit-faisal-alam-dc41412/node-web-app:latest
+docker push gcr.io/sit323-23t1-surpreet-s-86a6a22/node-web-app:latest
 
 #Install Kubectl just In Case (Might be Good)
 gcloud components install kubectl
