@@ -5,7 +5,6 @@ metadata:
   labels:
     app: myapp
 spec:
-  # modify replicas according to your case
   replicas: 3
   selector:
     matchLabels:
@@ -17,6 +16,6 @@ spec:
     spec:
       containers:
         - name: mynode
-          image: gcr.io/sit323-23t1-surpreet-s-86a6a22/node-web-app
+          image: gcr.io/sit323-23t1-surpreet-s-86a6a22/node-web-app:$COMMIT_SHA
           ports:
             - containerPort: 8080
