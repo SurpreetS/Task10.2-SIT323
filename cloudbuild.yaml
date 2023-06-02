@@ -12,7 +12,7 @@ steps:
       [
         "set",
         "image",
-        "deployment/mydeployment",
+        "deployment/hello-server",
         "mynode=gcr.io/sit323-23t1-surpreet-s-86a6a22/node-web-app:$COMMIT_SHA",
       ]
     env:
